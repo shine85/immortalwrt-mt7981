@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build mt798x hanwckf
+name: Build mt798x-hanwckf
 
 on:
   repository_dispatch:
