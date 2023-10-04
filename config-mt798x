@@ -78,7 +78,6 @@ CONFIG_TARGET_MULTI_PROFILE=y
 # CONFIG_TARGET_mediatek_mt7981_DEVICE_konka_komi-a31 is not set
 # CONFIG_TARGET_mediatek_mt7981_DEVICE_imou_lc-hx3001 is not set
 
-#
 # Target Devices
 #
 # CONFIG_TARGET_ALL_PROFILES is not set
@@ -116,6 +115,7 @@ CONFIG_TARGET_DEVICE_PACKAGES_mediatek_mt7981_DEVICE_mt7981-360-t7-108M=""
 # CONFIG_TARGET_DEVICE_mediatek_mt7981_DEVICE_xiaomi_mi-router-wr30u-stock is not set
 # end of Target Devices
 
+CONFIG_PACKAGE_kmod-gl-sdk4-parental-control=y
 CONFIG_HAS_SUBTARGETS=y
 CONFIG_HAS_DEVICES=y
 CONFIG_TARGET_BOARD="mediatek"
@@ -178,6 +178,7 @@ CONFIG_DEFAULT_luci-lib-fs=y
 CONFIG_MODULE_DEFAULT_luci-lib-fs=y
 CONFIG_DEFAULT_luci-lib-ipkg=y
 CONFIG_MODULE_DEFAULT_luci-lib-ipkg=y
+CONFIG_PACKAGE_luci-i18n-oaf-zh-cn=y
 CONFIG_DEFAULT_mtd=y
 CONFIG_MODULE_DEFAULT_mtd=y
 CONFIG_DEFAULT_netifd=y
@@ -351,6 +352,7 @@ CONFIG_KERNEL_BLK_CGROUP=y
 CONFIG_KERNEL_NET_CLS_CGROUP=y
 # CONFIG_KERNEL_CGROUP_NET_CLASSID is not set
 # CONFIG_KERNEL_CGROUP_NET_PRIO is not set
+CONFIG_PACKAGE_luci-app-oaf=y
 CONFIG_KERNEL_NAMESPACES=y
 CONFIG_KERNEL_UTS_NS=y
 CONFIG_KERNEL_IPC_NS=y
@@ -554,6 +556,12 @@ CONFIG_FEED_luci=y
 CONFIG_FEED_routing=y
 CONFIG_FEED_telephony=y
 
+#
+# Derry Apps
+#
+CONFIG_PACKAGE_appfilter=y
+CONFIG_PACKAGE_kmod-oaf=y
+# end of Derry Apps
 #
 # Base system
 #
