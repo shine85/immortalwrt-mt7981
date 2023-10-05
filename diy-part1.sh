@@ -22,7 +22,6 @@
 # git checkout v18.06.9
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-git clone https://github.com/gl-inet/parental-control.git package/parental-control
 git clone https://github.com/mslovecc/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/mslovecc/luci-app-argon-config.git package/luci-app-argon-config
 mkdir package/ming
